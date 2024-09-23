@@ -1,0 +1,144 @@
+.item-card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+}
+
+.item-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.item-card-header-information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.4em;
+}
+
+.item-card-herader-quantity {
+  width: 5em;
+  height: 3em;
+  border-radius: 0.5em;
+  border: 2px solid transparent;
+  background-color: #4c608526;
+}
+
+.item-card-herader-quantity input {
+  text-align: center;
+}
+
+.item-card-image {
+  width: 3em;
+}
+
+.item-card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.item-card-body p {
+  width: 100%;
+  font-size: 0.7em;
+  color: lightgray;
+}
+
+.item-card-body-game {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.item-card-body-price {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  color: white;
+}
+
+.discount {
+  font-weight: 400 !important;
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: lightgray;
+}
+
+.item-card-body-buttons {
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-on-sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7em;
+  color: white;
+  gap: 0.3em;
+}
+
+.item-card-stock {
+  padding: 0.3em;
+  font-size: small;
+  border: 2px solid;
+  border-radius: 0.3em;
+  border-color: #39e29d;
+  color: #39e29d;
+  text-align: center;
+}
+
+.item-card-no-stock {
+  padding: 0.3em;
+  font-size: small;
+  border: 2px solid;
+  border-radius: 0.3em;
+  border-color: rgb(221, 52, 52);
+  color: rgb(221, 52, 52);
+  text-align: center;
+}
+
+.button.buy-button {
+  background-color: #5762d5;
+  color: white;
+  letter-spacing: normal;
+  width: 6.6em;
+  padding-block: 0;
+  height: 3.5em;
+}
+
+.button.details-button {
+  background-color: #4c608526;
+  color: lightgray;
+  letter-spacing: normal;
+  width: 6.6em;
+  padding-block: 0;
+  height: 3.5em;
+}
+
+.cart-icon-container {
+  width: 100%;
+  background-color: #4b56d3;
+  border: 1px solid transparent;
+  border-radius: 1em;
+}

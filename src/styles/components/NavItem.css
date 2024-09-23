@@ -1,0 +1,16 @@
+.dropdown {
+  position: absolute;
+  top: 4em;
+  left: -2em;
+  width: 9rem;
+  padding: 1.5rem;
+  background-color: #2b2c3c;
+  border-radius: 0.5em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1.5em;
+}

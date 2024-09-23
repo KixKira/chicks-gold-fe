@@ -1,0 +1,13 @@
+.card-container {
+  flex: 1;
+  height: 100%;
+  padding: 4em 3em;
+  border-radius: 0.5em;
+  border: 2px solid;
+}
+
+@media (max-width: 950px) {
+  .card-container {
+    padding: 2em 1em;
+  }
+}
